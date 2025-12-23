@@ -66,10 +66,10 @@ export default function Education() {
         {/* TED Vascular Congress Sponsorship Section */}
         <section className="bg-white shadow-lg rounded-xl p-8 md:p-12 space-y-6">
           <h2 className="text-3xl font-bold text-center text-blue-800">
-            Proud Sponsor of The TED Congress 2026
+            Proud Sponsor of TED Congress 
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We are thrilled to announce that <strong>Give For Good Foundation</strong> is an official sponsor of the <strong>TED Vascular Congress 2026</strong> occurring anually in <strong>Scottsdale, Arizona</strong>.  
+            We are thrilled to announce that <strong>Give For Good Foundation</strong> is an official sponsor of the <strong>TED Vascular Congress </strong> occurring annually in <strong> Arizona</strong>.  
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             This prestigious event brings together world-class vascular specialists, medical innovators, and thought leaders to share breakthroughs, discuss best practices, and inspire meaningful collaboration in the field of vascular medicine. By supporting this congress, we aim to further our mission of advancing education and research while fostering impactful community initiatives.
