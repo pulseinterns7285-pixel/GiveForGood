@@ -58,7 +58,7 @@ export default function Education() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white text-center px-4">
-              TED Conference AZ
+              TED Congress AZ
             </h2>
           </div>
         </section>
