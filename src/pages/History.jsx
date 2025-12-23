@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import couple from "../assets/couple.png"; // Founders image
 
 export default function History() {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,91 +73,110 @@ export default function History() {
         )}
       </nav>
 
-      {/* Page Content */}
-      <section className="max-w-6xl mx-auto px-6 sm:px-8 py-20">
-        {/* Hero */}
-        <div className="text-center max-w-4xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-md">
-            Our History
-          </h1>
-          <p className="text-lg text-gray-600">
-            Give For Good Foundation was built on a simple belief: that dignity,
-            opportunity, and education should never be denied because of
-            circumstance.
-          </p>
+      {/* ================= Hero / Intro ================= */}
+      <section className="text-center max-w-4xl mx-auto px-6 sm:px-8 py-20">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-md">
+          Our History
+        </h1>
+        <p className="text-lg text-gray-600">
+          Give For Good Foundation was built on a simple belief: that dignity,
+          opportunity, and education should never be denied because of circumstance.
+        </p>
+      </section>
+
+      {/* ================= History Story ================= */}
+      <section className="max-w-6xl mx-auto px-6 sm:px-8 space-y-12 text-gray-700 text-lg leading-relaxed">
+        <p>
+          In many parts of India, children with disabilities are still pushed
+          to the margins of society. Limited access to education, social stigma,
+          and a lack of resources often leave these children isolated from the
+          opportunities they deserve.
+        </p>
+
+        <p>
+          Give For Good Foundation was created to challenge that reality. Our
+          work began with a focus on education as the most powerful tool for
+          inclusion—because when a child is given the ability to learn, they
+          are given the ability to participate fully in the world.
+        </p>
+
+        <p>
+          One of our earliest and most impactful initiatives supported the
+          Lion’s School for the Speech and Hearing Impaired and orthopaedic
+          students in Kopargaon, Maharashtra. For many of these children, school
+          is more than a classroom—it is a safe space where they are seen,
+          supported, and believed in.
+        </p>
+
+        <p>
+          At Lion’s School, it takes just <strong>$150 USD</strong> to educate
+          a student for an entire year. That single year provides specialized
+          instruction, essential learning materials, and the confidence these
+          children need to stand on equal footing with their peers.
+        </p>
+
+        <p>
+          Through the generosity of our supporters, Give For Good Foundation
+          raised <strong>$5,000</strong> to sponsor schooling and supplies for
+          students at the school—directly impacting the lives of dozens of
+          children and their families.
+        </p>
+      </section>
+
+      {/* ================= Impact Stats ================= */}
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-20 max-w-6xl mx-auto text-center">
+        <div className="bg-white rounded-xl shadow-sm p-8">
+          <h3 className="text-4xl font-bold mb-2">$150</h3>
+          <p className="text-gray-600">Educates one student for a full year</p>
         </div>
 
-        {/* Story */}
-        <div className="space-y-12 text-gray-700 leading-relaxed text-lg">
-          <p>
-            In many parts of India, children with disabilities are still pushed
-            to the margins of society. Limited access to education, social
-            stigma, and a lack of resources often leave these children isolated
-            from the opportunities they deserve.
-          </p>
-
-          <p>
-            Give For Good Foundation was created to challenge that reality. Our
-            work began with a focus on education as the most powerful tool for
-            inclusion—because when a child is given the ability to learn, they
-            are given the ability to participate fully in the world.
-          </p>
-
-          <p>
-            One of our earliest and most impactful initiatives supported the
-            Lion’s School for the Speech and Hearing Impaired and orthopaedic
-            students in Kopargaon, Maharashtra. For many of these children,
-            school is more than a classroom—it is a safe space where they are
-            seen, supported, and believed in.
-          </p>
-
-          <p>
-            At Lion’s School, it takes just <strong>$150 USD</strong> to educate
-            a student for an entire year. That single year provides specialized
-            instruction, essential learning materials, and the confidence these
-            children need to stand on equal footing with their peers.
-          </p>
-
-          <p>
-            Through the generosity of our supporters, Give For Good Foundation
-            raised <strong>$5,000</strong> to sponsor schooling and supplies for
-            students at the school—directly impacting the lives of dozens of
-            children and their families.
-          </p>
+        <div className="bg-white rounded-xl shadow-sm p-8">
+          <h3 className="text-4xl font-bold mb-2">$5,000</h3>
+          <p className="text-gray-600">Raised to support disabled students</p>
         </div>
 
-        {/* Impact Stats */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-20 text-center">
-          <div className="bg-white rounded-xl shadow-sm p-8">
-            <h3 className="text-4xl font-bold mb-2">$150</h3>
-            <p className="text-gray-600">
-              Educates one student for a full year
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-sm p-8">
-            <h3 className="text-4xl font-bold mb-2">$5,000</h3>
-            <p className="text-gray-600">
-              Raised to support disabled students
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-sm p-8">
-            <h3 className="text-4xl font-bold mb-2">100%</h3>
-            <p className="text-gray-600">
-              Direct impact on education & supplies
-            </p>
-          </div>
+        <div className="bg-white rounded-xl shadow-sm p-8">
+          <h3 className="text-4xl font-bold mb-2">100%</h3>
+          <p className="text-gray-600">Direct impact on education & supplies</p>
         </div>
+      </section>
 
-        {/* Closing */}
-        <div className="max-w-4xl mx-auto mt-20 text-center">
-          <p className="text-lg text-gray-700">
-            Our history is still being written. With every student supported and
-            every community strengthened, we move closer to a future where no
-            child is defined by limitation—only by possibility.
+      {/* ================= About Us / Founders ================= */}
+      <section className="py-24 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 bg-gray-50 rounded-3xl shadow-xl mt-24">
+        {/* Image */}
+        <div className="md:w-1/2 flex justify-center">
+          <img
+            src={couple}
+            alt="Founders Priya & Rajiv Ramaiah"
+            className="w-100 h-100 object-cover rounded-3xl shadow-xl"
+          />
+        </div>
+        {/* Text */}
+        <div className="md:w-1/2 space-y-6 text-center md:text-left">
+          <h2 className="text-4xl font-bold text-blue-900">About Us</h2>
+          <p className="text-gray-700 text-lg">
+            We are a nonprofit 501(c)(3) organization dedicated to serving both the local and international community through service, fundraising, and public outreach.
+          </p>
+          <p className="text-gray-700 text-lg">
+            Founded in 2012, the Give for Good Foundation is based on the idea of one organization serving humanity one mission at a time.
+          </p>
+          <p className="text-gray-700 text-lg">
+            Medical companies often fly executives to conferences first class. While these expensive plane tickets are certainly a pleasant luxury, the price difference between coach and first class, often thousands of dollars, struck us as wasteful. By giving up just a few hours of comfort, one businessman could save enough money to supply an elementary school in a 3rd world country. Suppose that businessman could elect to give up his luxury ticket for a good cause? Thus, the idea of Give for Good was born. However, Give for Good is more than just one concept. We aim to use funds from this idea and many others to help important causes all over the world.
+          </p>
+          <p className="text-gray-700 text-lg font-semibold">
+            Thank you for reading,<br />
+            Priya & Rajiv Ramaiah
+          </p>
+          <p className="text-gray-700 text-lg">
+            Founders<br />
+            Give for Good Foundation, Inc.
           </p>
         </div>
+      </section>
+
+      {/* ================= Closing Statement ================= */}
+      <section className="max-w-4xl mx-auto mt-20 text-center px-6">
+  
       </section>
     </div>
   );

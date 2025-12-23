@@ -35,7 +35,7 @@ export default function Women() {
     },
     {
       title: "Organic Farming",
-      desc: "Neer Village has ideal conditions to grow superfoods like ginger, garlic and turmeric organically. With the holy Ganges river bringing rich alluvial soil that promotes amazing harvests, giveforgood recognizes this gift and has empowered and connected the women of this village with local buyers.",
+      desc: "Neer Village has ideal conditions to grow superfoods like ginger, garlic and turmeric organically. With the Ganges river bringing rich alluvial soil that promotes amazing harvests. GiveForGood recognizes this gift and has empowered and connected the women of this village with local buyers.",
       image: ginger,
     },
     {
