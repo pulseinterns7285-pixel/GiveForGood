@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import couple from "../assets/couple.png"; // Founders image
+import couple from "../assets/siblings.png"; // Founders image
 
 export default function History() {
   const [isOpen, setIsOpen] = useState(false);
