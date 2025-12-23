@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 export default function ContactUs() {
   const [isOpen, setIsOpen] = useState(false);
