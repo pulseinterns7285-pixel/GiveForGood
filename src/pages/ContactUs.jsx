@@ -75,7 +75,7 @@ export default function ContactUs() {
             Reach out with questions, ideas, or ways to get involved.
           </p>
           <p className="text-gray-600">
-            Or email us directly at <span className="font-semibold text-black">[email]</span>
+            Or email us directly at <span className="font-semibold text-black">giveforgoodfoundation@gmail.com</span>
           </p>
         </div>
 

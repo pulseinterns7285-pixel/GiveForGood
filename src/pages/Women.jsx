@@ -35,7 +35,7 @@ export default function Women() {
     },
     {
       title: "Organic Farming",
-      desc: " Neer Village has ideal conditions to grow superfoods like ginger, garlic and turmeric organically. With the holy Ganges river bringing rich alluvial soil that promotes amazing harvests, giveforgood recognizes this gift and has empowered and connected the women of this village with local buyers. ",
+      desc: "Neer Village has ideal conditions to grow superfoods like ginger, garlic and turmeric organically. With the holy Ganges river bringing rich alluvial soil that promotes amazing harvests, giveforgood recognizes this gift and has empowered and connected the women of this village with local buyers.",
       image: ginger,
     },
     {
@@ -48,7 +48,7 @@ export default function Women() {
   return (
     <div className="font-sans bg-gray-100 text-gray-900 min-h-screen">
       {/* Navbar */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-200">
+      <nav className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center h-20">
           <a href="/" className="text-2xl font-bold mr-12">
             Give For Good Foundation
@@ -116,10 +116,10 @@ export default function Women() {
       <section className="max-w-7xl mx-auto px-6 sm:px-8 py-20">
         {/* Title */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-md0">
             Empowering Women, Transforming Communities
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-700">
             We believe empowering women is the foundation of sustainable change.
             Through skill-building, wellness, and economic opportunity, we help
             women unlock their potential and lead stronger communities.
@@ -131,23 +131,27 @@ export default function Women() {
           {programs.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-sm hover:shadow-md transition overflow-hidden"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-1 overflow-hidden"
             >
               {/* Image */}
-              <div className="h-48 w-full overflow-hidden">
+              <div className="h-56 w-full overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover object-top"
+                  className={`w-full h-full object-cover ${
+                    item.title === "Economic Independence"
+                      ? "object-center"
+                      : "object-top"
+                  }`}
                 />
               </div>
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
+                <h3 className="text-xl font-semibold mb-3 text-blue-800">
+                  {item.title}
+                </h3>
+                <p className="text-gray-700 text-sm leading-relaxed">{item.desc}</p>
               </div>
             </div>
           ))}

@@ -76,7 +76,7 @@ export default function History() {
       <section className="max-w-6xl mx-auto px-6 sm:px-8 py-20">
         {/* Hero */}
         <div className="text-center max-w-4xl mx-auto mb-20">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-md">
             Our History
           </h1>
           <p className="text-lg text-gray-600">

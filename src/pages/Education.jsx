@@ -43,7 +43,7 @@ export default function Education() {
       <main className="max-w-7xl mx-auto px-6 sm:px-8 py-12 space-y-12">
         {/* Page header */}
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Education & Research</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-md">Education & Research</h1>
           <p className="text-lg text-gray-700">
             At Give For Good Foundation, we are committed to fostering knowledge, innovation, and community impact.
           </p>
