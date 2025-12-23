@@ -69,7 +69,7 @@ export default function Education() {
             Proud Sponsor of TED Congress 
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We are thrilled to announce that <strong>Give For Good Foundation</strong> is an official sponsor of the <strong>TED Vascular Congress </strong> occurring annually in <strong> Arizona</strong>.  
+            We are thrilled to announce that <strong>Give For Good Foundation</strong> is an official sponsor of the <strong>TED Congress </strong> occurring annually in <strong> Arizona</strong>.  
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             This prestigious event brings together world-class vascular specialists, medical innovators, and thought leaders to share breakthroughs, discuss best practices, and inspire meaningful collaboration in the field of vascular medicine. By supporting this congress, we aim to further our mission of advancing education and research while fostering impactful community initiatives.
