@@ -58,7 +58,7 @@ export default function Education() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white text-center px-4">
-              TED Congress AZ
+              TED Congress
             </h2>
           </div>
         </section>
@@ -66,10 +66,10 @@ export default function Education() {
         {/* TED Vascular Congress Sponsorship Section */}
         <section className="bg-white shadow-lg rounded-xl p-8 md:p-12 space-y-6">
           <h2 className="text-3xl font-bold text-center text-blue-800">
-            Proud Sponsor of The TED Vascular Congress 2023
+            Proud Sponsor of The TED Congress 2026
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            We are thrilled to announce that <strong>Give For Good Foundation</strong> was an official sponsor of the <strong>TED Vascular Congress 2023</strong>, happening from <strong>March 19-21, 2023</strong> at the luxurious <strong>The Phoenician in Scottsdale, Arizona</strong>.  
+            We are thrilled to announce that <strong>Give For Good Foundation</strong> is an official sponsor of the <strong>TED Vascular Congress 2026</strong> occurring anually in <strong>Scottsdale, Arizona</strong>.  
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             This prestigious event brings together world-class vascular specialists, medical innovators, and thought leaders to share breakthroughs, discuss best practices, and inspire meaningful collaboration in the field of vascular medicine. By supporting this congress, we aim to further our mission of advancing education and research while fostering impactful community initiatives.
