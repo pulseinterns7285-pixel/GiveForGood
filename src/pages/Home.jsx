@@ -45,6 +45,24 @@ export default function Home() {
         </div>
       </nav>
 
+    {/* ================== Mobile Menu ================== */}
+{isOpen && (
+  <div className="md:hidden bg-paper border-b border-gray-200 shadow-sm">
+    <div className="flex flex-col px-6 py-4 space-y-4">
+      <a href="/education" className="text-lg">Education & Research</a>
+      <a href="/community" className="text-lg">Community Development</a>
+      <a href="/women" className="text-lg">Women Empowerment</a>
+      <a href="/history" className="text-lg">Our History</a>
+      <a
+        href="/contact"
+        className="mt-2 px-6 py-2 bg-black text-white rounded-md text-center"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+)}
+
       {/* ================== Hero ================== */}
       <section
         className="relative w-full h-[80vh] flex items-center justify-center text-center bg-cover bg-center"
