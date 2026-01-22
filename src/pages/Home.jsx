@@ -45,9 +45,9 @@ export default function Home() {
         </div>
       </nav>
 
-    {/* ================== Mobile Menu ================== */}
+{/* ================== Mobile Menu ================== */}
 {isOpen && (
-  <div className="md:hidden bg-paper border-b border-gray-200 shadow-sm">
+  <div className="md:hidden bg-paper border-b border-gray-200 shadow-sm relative z-40">
     <div className="flex flex-col px-6 py-4 space-y-4">
       <a href="/education" className="text-lg">Education & Research</a>
       <a href="/community" className="text-lg">Community Development</a>
